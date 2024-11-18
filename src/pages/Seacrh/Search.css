@@ -1,0 +1,42 @@
+input {
+    font-size: 24px;
+    border: 1px solid #414141;
+    border-radius: 8px;
+    font-weight: 300;
+    padding: 3px 5px 5px 5px;
+}
+.search {
+    margin-top: 80px;
+    height: auto;
+}
+.search_title{
+    margin-top: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+input[placeholder='Введите текст']::placeholder {
+    font-size: 18px;
+}
+input[value="Поиск"] {
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px 15px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.searched_catalog_wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}

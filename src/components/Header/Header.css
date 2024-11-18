@@ -1,0 +1,172 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.nav {
+    display: flex;
+    gap: 60px;
+}
+.nav_link {
+    color: #222;
+    font-size: 14px;
+}
+.header_logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #222;
+}
+.icons {
+    position: relative;
+}
+.icons > svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+
+}
+.icons > div > svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+
+}
+.icons > a> svg {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: .3s ease;
+
+}
+.icons > a> svg:hover > path {
+    fill: rgb(154, 154, 154);
+    transition: .3s ease;
+
+}
+
+.icons > a> svg > path {
+    transition: .3s ease;
+}
+.icons > div> svg > path {
+    transition: .3s ease;
+}
+
+.icons > svg > path {
+    transition: .3s ease;
+
+}
+
+.icons > svg:hover > path {
+    stroke: rgb(154, 154, 154);
+    transition: .3s ease;
+
+}
+.icons >div> svg:hover > path {
+    stroke: rgb(154, 154, 154);
+    transition: .3s ease;
+
+}
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+.nav_elem {
+    position: relative;
+}
+.nav_elem::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height:2px;
+    background-color: #000000;
+    transition: transform .3s ease-in;
+    transform: scale(0);
+
+
+}
+.nav_elem:hover:before, .nav_elem:focus:hover {
+    transform: scale(1);
+}
+.cart {
+    position: relative;
+}
+.count_items.active {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    transition: 0.3s ease-in-out;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+}
+.count_items {
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+}
+
+.favs_list {
+    transition: .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.favs_list.hidden {
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-50px);
+    max-height: 0;
+    max-width: 0;
+}
+.favs_list.active {
+    opacity: 1;
+    transform: translateY(0px);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+    background: #fff;
+    position: absolute;
+    z-index: 111;
+    max-height: auto;
+    max-width: auto;
+    border-radius: 15px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.favs_list-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+.fav_list-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.fav_list-text > button {
+    margin-bottom: 4px;
+}

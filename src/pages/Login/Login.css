@@ -1,0 +1,76 @@
+
+.signup {
+    margin-top: 80px;
+    height: 100vh;
+}
+.signup_info {
+    display: flex;
+    flex-direction: column;
+}
+.signup > .container {
+    display: flex;
+    justify-content: center;
+}
+.signup_inner {
+    display: flex;
+    align-items:flex-start;
+    gap: 200px;
+}
+.signup_title {
+    color: #201F1F;
+    font-size: 40px;
+    font-weight: 700;
+}
+.signup_inner > img {
+    height: 60vh;
+}
+form[name="signup"],form[name="updateProfile"],form[name="signin"]{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input[name="name"],input[name="login"],input[name="password"],input[name="repeatPassword"],input[name="oldpassword"],input[name="newpassword"] {
+    padding:  12px 20px;
+    background-color:#F5F5F5;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #6C5FBC;
+
+}
+input[name="name"]:focus,input[name="login"]:focus,input[name="password"]:focus,input[name="repeatPassword"]:focus,input[name="oldpassword"]:focus,input[name="newpassword"]:focus {
+    background-color: #ffffff;
+    outline: 2px solid #6C5FBC;
+    color: #6C5FBC;
+
+}
+input[name="name"]::placeholder,input[name="login"]::placeholder,input[name="password"]::placeholder,input[name="repeatPassword"]::placeholder,input[name="oldpassword"]::placeholder,input[name="newpassword"]::placeholder  {
+    font-size: 16px;
+    color: #C2C3CB;
+
+}
+input[name="name"]:focus::placeholder,input[name="login"]:focus::placeholder,input[name="password"]:focus::placeholder,input[name="repeatPassword"]:focus::placeholder,input[name="oldpassword"]:focus::placeholder,input[name="newpassword"]:focus::placeholder  {
+    color: #6C5FBC;
+
+}
+input[type="submit"] {
+    padding: 12px 100px;
+    background-color: #6C5FBC;
+    color: #F9F9F9;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    transition:.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+
+
+}
+input[type="submit"]:hover {
+    background-color: #7564da;
+}
+
+.error_title {
+    font-size: 16px;
+    color: #6C5FBC;
+    
+}

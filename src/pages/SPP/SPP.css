@@ -1,0 +1,175 @@
+
+.return_to-catalog {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9f9f9f;
+}
+.elem_page {
+    margin-top: 30px;
+    
+}
+.elem_main {
+    display: flex;
+    gap: 300px;
+}
+.elem_photos {
+    display: flex;
+    gap: 30px;
+}
+.photos_thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+.main_photo > img {
+    width: 400px;
+    height: 450px;
+}
+.elem_about {
+    margin-top: 20px;
+}
+.photos_thumbnails >button> img {
+    width: 80px;
+ aspect-ratio: 1;
+}
+.elem_description {
+    max-width: 400px;
+}
+.elem_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.elem_brand,.elem_category {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+.elem_brand>span , .elem_category>span {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.lalala {
+    font-size: 30px;
+    font-weight: 500;
+}
+.elem_prices{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.elem_price{
+    font-weight: 500;
+    font-size: 18px;
+    color: 414141;
+}
+.elem_old_price{
+    text-decoration: line-through;
+    color: #7B7B7B;
+    font-weight: 400;
+}
+.elem_discount{
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 6px 5px;
+    background: red;
+    color: white;
+    font-weight: 500;
+}
+.elems_rating {
+    margin-top: 20px;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+.elem_rating {
+    font-size: 14px;
+    font-weight: 600;
+    color: green;
+    margin-top: 0;
+}
+.elem_btns {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    
+}
+.element_btn.cart{
+    padding: 17px 20px;
+    background-color: #414141;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.element_btn.fav{
+    padding: 10px 15px;
+    background-color: #414141;
+    border-radius: 10px;
+    color: white;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
+.element_btn.buy{
+    margin-top: 15px;
+    padding: 15px 54px;
+    background-color: #bbbbbb;
+    border-radius: 10px;
+    color: #414141;
+    font-weight: 600;
+    border: 1px solid #414141;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
+.element_btn.cart:hover {
+    color: #414141;
+    background: white;
+    outline: 1px solid #414141;
+}
+.element_btn.fav > svg {
+    width: 28px;
+    height: 28px;
+}
+.element_btn.fav > svg>path {
+    fill: white;
+    transition: .3s ease;
+}
+.element_btn.fav > svg>path {
+    stroke: white;
+    transition: .3s ease;
+
+
+}
+.element_btn.fav:hover > svg>path {
+    fill: #414141;
+    
+}
+.element_btn.fav > svg>path {
+    stroke: #414141;
+}
+.element_btn.fav:hover  {
+    background-color: white;
+    color: #414141;
+    outline: 1px solid #414141;
+    transition: .3s ease;
+
+}
+
+.element_btn.buy:hover {
+    color: white;
+    background: #414141;
+    transition: .3 ease;
+    outline: 1px solid #fff;
+
+}

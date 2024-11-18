@@ -1,0 +1,16 @@
+
+.info_inner {
+    margin:  auto;
+    margin-left: 100px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.info {
+
+    max-width: 1200px;
+    color: #b1b1b1;
+    font-size: 16px;
+    justify-content: center;
+
+}

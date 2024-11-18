@@ -1,0 +1,50 @@
+.fav_item > img {
+    width: 80px;
+    aspect-ratio: 1;
+}
+.fav_item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgb(154, 154, 154);
+    border-radius: 5px;
+
+
+}
+.fav_item-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+.fav_item-rating {
+    font-size: 13px;
+}
+.fav_item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+.fav_item-ratingBlock {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.fav_item-price{
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+}
+.fav_item-btn {
+    font-size: 12px;
+    padding: 5px 5px;
+    background-color: #202020;
+    border-radius: 5px;
+    color: white;
+}
+.fav_item-btns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+
+}

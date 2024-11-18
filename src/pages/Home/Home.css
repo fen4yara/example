@@ -1,0 +1,100 @@
+.home {
+    margin-top: 100px;
+
+}
+.home_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+z-index: 1;
+background-color: blanchedalmond;
+}
+.item {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.item:hover > .item_title {
+    transform: scale(1.1);
+    transition: .2s linear;
+
+}
+.item_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    transition: .2s linear;
+
+}
+.item:nth-child(1) {
+    background-image: url(https://imgcdn.zarina.ru/upload/uf/894/ogy8dbvj19n9el7vnrram8pvjy3v2cte.jpg);
+    background-size: cover;
+
+}
+.item:nth-child(2) {
+    background-image: url(https://imgcdn.zarina.ru/upload/uf/bea/93alp97lpsy9r1a2tnqnxhvuyjyi9ruk.jpg);
+    background-size: cover;
+
+}
+.item:nth-child(3) {
+    background-image: url(https://imgcdn.zarina.ru/upload/uf/07b/s5s5twb5e1ahq238vw8tikghnn917wun.jpg);
+    background-size: cover;
+
+}
+.item:nth-child(4) {
+    background-image: url(https://imgcdn.zarina.ru/upload/uf/3dd/65mq5aufmuiu0qp422xujphr6iytu9el.jpg);
+    background-size: cover;
+
+}
+.item:nth-child(5) {
+    background-image: url(https://imgcdn.zarina.ru/upload/uf/3dd/65mq5aufmuiu0qp422xujphr6iytu9el.jpg);
+    background-size: cover;
+
+}
+.item:nth-child(6) {
+    background-image: url(https://imgcdn.zarina.ru/upload/uf/c33/1w503eudu5u1bv7thqm2knnr978uw6qr.jpg);
+    background-size: cover;
+
+}
+.home_slider {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider_btns {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+}
+.slider_inner {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider_items {
+    display: flex;
+    gap: 40px;
+}
+.slider_btn {
+    background-color: black;
+    color: white;
+    padding: 10px 13px;
+
+    border-radius: 10px;
+    transition: .2s linear;
+}
+.slider_btn:hover {
+    background-color: white;
+    transform-origin: .2s linear;
+    color: inherit;
+    outline: 1px solid black;
+}

@@ -1,0 +1,58 @@
+/* обнуление */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+header,
+nav,
+footer,
+aside {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+img {
+  vertical-align: top;
+}
+
+button {
+  cursor: pointer;
+  background: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
